@@ -10,7 +10,7 @@ This modeling is inspired by (INSERT PAPERS) to come up with predictions for fan
 ### ![beta](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Formulas/beta.jpg)
 
 \alpha_i = prior distribution of means for clusters
-### ![X](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Formulas/X-i.jpg)
+### ![X](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Formulas/X-i.jpg) observation from previous year
 Clusters come from a kmeans cluster by taking into account the batters Pull%, Three-True-Outcome% (K%+BB%+HR%), Average Exit Velocity, and Line Drive %  
 ### ![cluster](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Formulas/k_means_cluster.jpg)
 
