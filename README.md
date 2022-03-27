@@ -5,7 +5,7 @@ This modeling is inspired by (INSERT PAPERS) to come up with predictions for fan
 ### Models
 
 ##### Home Runs
-![alt text](https://github.com/JonnyMurillo288/FantasyBaseball2022/Formulas/main_yhat.png)
+![yhat](https://github.com/JonnyMurillo288/FantasyBaseball2022/Formulas/main_yhat.png)
 
 
 $\beta_i = Dirichlet(alpha_i_hr + x_i_hr,...)
