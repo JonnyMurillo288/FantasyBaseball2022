@@ -6,7 +6,7 @@ This modeling is inspired by (INSERT PAPERS) to come up with predictions for fan
 
 ##### Home Runs
 
-$\hat{y} = $\beta_i + $\delta_i + $\theta_i$
+$\hat{y_i} = $\beta_i + $\delta_i + $\theta_i$
 
 
 $\beta_i = Dirichlet(alpha_i_hr + x_i_hr,...)
