@@ -1,0 +1,23 @@
+model {
+
+
+
+# Sigma is ever decreasing towards 0
+# Theta comes from cluster means
+# Sampling thetas 
+for (h in 1:nclust) {
+	for (j in 1:7) {
+		theta[h,j] ~ dnorm(mu[h,j],sd[h,j]/N)
+		sig[h,j] ~ dexp(25)
+	}
+	
+}
+
+# Sampling alphas
+for (i in 1:N) {
+	for (j in 1:7) {
+		alpha[i,j] ~ dnorm(theta[hitter.clusters[i],j],sig[hitter.clusters[i],j])T(0,)
+	}
+}
+
+}
