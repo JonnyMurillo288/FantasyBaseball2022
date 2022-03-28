@@ -28,6 +28,7 @@ EX: Coors field gets 15% reduction in y_hat_i_hr since it is a hitter friendly p
 
 
 ## Still to do:
+#### Runs and RBI
 #### Stolen Base Model (Beta distribution)
 #### Predict Breakouts
 #### Regression to the mean
