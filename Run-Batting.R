@@ -9,7 +9,7 @@
 # 5. Sample theta and sig2 from within group means and SD
 # 6. y-hat_i ~ Dir((alpha+X_hr)_HR,(alpha+X_bb)_BB,...(alpha+X_out)_Out)
 
-source("./R-Files/Age-BPfactors.R")
+source("./Age-BPfactors.R")
 
 
 # =================== Clustering HR and adjusting by AGE and BP =======================
@@ -23,7 +23,7 @@ clst.dta <- bref[c("EV","TTO","Pull.","LD.","ISO")]
 
 bref$hitter.cluster<- kmeans(scale(clst.dta),nclust,nstart=35)$cluster
 
-source("./R-Files/Dirichlet-MCMC-sims.R")
+source("./Dirichlet-MCMC-sims.R")
 
 # RUN THE ADJUSTMENTS FOR AGE AND BALLPARK FACTORS
 orig <- bref$HR_alphas
