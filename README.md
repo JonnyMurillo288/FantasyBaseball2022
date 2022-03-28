@@ -1,6 +1,6 @@
 ## Overview
 
-This modeling is inspired by ![(Herrlin 2015)](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Fantasy-Baseball-Models-Paper.pdf) to come up with predictions for fantasy baseball based on historical data. 
+This modeling is inspired by ![(Herrlin 2015)](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Fantasy-Baseball-Models-Paper.pdf) to come up with predictions for fantasy baseball based on historical data. Each model creates a multinomial dirichlet distribution since each there are 7 outcomes of each at bat (HR, Single, Double, Triple, Walk, Strike Out, Other Out). With this distribution we get a posterior prediction that we then update using an aging curve for each outcome and park adjustments for the home ball park
 
 ## Models
 
