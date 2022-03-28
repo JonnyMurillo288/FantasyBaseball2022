@@ -2,9 +2,9 @@
 
 This modeling is inspired by ![(Herrlin 2015)](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Fantasy-Baseball-Models-Paper.pdf) to come up with predictions for fantasy baseball based on historical data. 
 
-### Models
+## Models
 
-##### Home Runs
+#### Home Runs
 ### ![yhat](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Formulas/main_yhat.jpg)
 
 ### ![beta](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Formulas/beta.jpg)
