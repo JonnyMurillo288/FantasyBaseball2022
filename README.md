@@ -10,7 +10,7 @@ All models follow this same set of functions for getting posterior estimates, be
 
 ### ![beta](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Formulas/beta.jpg)
 
-\alpha_i = prior distribution of means for clusters
+$\alpha_i$ = prior distribution of means for clusters
 
 ![X](https://github.com/JonnyMurillo288/FantasyBaseball2022/blob/main/Formulas/X-i.jpg) observation from previous year
 Clusters come from a kmeans cluster by taking into account the batters Pull%, Three-True-Outcome% (K%+BB%+HR%), Average Exit Velocity, ISO (SLG - AVG), and Line Drive %  
